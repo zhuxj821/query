@@ -111,21 +111,24 @@
         <div class="content">
           <h2 class="title is-3">SEPP framework</h2>
           <div class="level-set has-text-justified">
-          <p>
-                    <img src="static/images/net.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
-          </p>
-              <p>
-                Our proposed SEPP network estimates the clean target speech  $\hat{\textbf{z}}(\tau)$ from a multi-channel speech mixture $\textbf{y}^m(\tau)$ and a natural language query $Q$. 
-                Specifically, the PPCP parses $Q$ into position and personality components: 
-                the position component is quantized via predefined angle/distance maps to guide extraction of $L_S$ (IPD, ILD, $\xi_{\text{ang}}$ and $\xi_{\text{dis}}$); 
-                the personality component is encoded via a text encoder to produce $L_T$.
-              </p>
+            <p>
+              <img src="static/images/s.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              Our proposed SEPP network estimates the clean target speech \( \hat{\mathbf{z}}(\tau) \) 
+              from a multi-channel speech mixture \( \mathbf{y}^m(\tau) \) and a natural language query \( Q \). 
+              Specifically, the PPCP parses \( Q \) into position and personality components: 
+              the position component is quantized via predefined angle/distance maps to guide extraction of 
+              \( L_S \) (IPD, ILD, \( \xi_{\text{ang}} \) and \( \xi_{\text{dis}} \)); 
+              the personality component is encoded via a text encoder to produce \( L_T \).
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
   
 <section class="section hero is-small is-light">
@@ -264,7 +267,7 @@
             <div style="text-align: center;">
               <img src="./static/images/table1.png" width="800">
               <p><strong>Results of TSE methods with different queries. 
-$^{\dagger}$ indicates a fine-tuned version.
+\(^{\dagger}\) indicates a fine-tuned version.
 Bold values indicate the best performance.
 For all these metrics, higher values correspond to better performance outcomes \((\uparrow)\).  </strong></p>
             </div>
