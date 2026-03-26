@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
@@ -55,74 +56,6 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Listen Where You Describe: Multi-channel Target Speaker Extraction via Personality and Position Queries</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <!-- <span class="author-block">
-                <a href="https://github.com/Beiming149/" target="_blank">Xinjia Zhu<sup>1</sup></a>,</span>
-                <span class="author-block">
-                  <a href="https://faculty.ustb.edu.cn/qianxinyuan/zh_CN/index.htm" target="_blank">Xinyuan Qian<sup>*, </sup><sup>2</sup></span>,
-                  <span class="author-block">
-                    <a href="https://faculty.nuaa.edu.cn/liangdong" target="_blank">Dong Liang<sup>1</sup></a>
-                  </span>
-                  <!-- <span class="author-block">
-                    <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.9dd83896b8408fc2.html" target="_blank">Tatsuya Kawahara</a>
-                  </span> -->
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Nanjing University of Aeronautics and Astronautics</span>
-                    <br>
-                    <span class="author-block"><sup>2</sup>University of Science and Technology Beijing</span>
-                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span> -->
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href=" https://huggingface.co/datasets/Zhuxinjia/SS-Libri/tree/main" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Dataset</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/zhuxj821/SSDQ.git" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> --> -->
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -136,7 +69,7 @@
     <div class="container is-max-desktop">
       <div class="hero-body" style="text-align: center;">
         <p>
-          <img src="static\images\1.png" alt="Task" class="blend-img-background center-image" style="max-width: 40%; height: auto;" />
+          <img src="static\images\task.png" alt="Task" class="blend-img-background center-image" style="max-width: 40%; height: auto;" />
         </p>
         <br>
         <p>
@@ -157,11 +90,11 @@
         <div class="content has-text-justified">
           <p>
             Target Speaker Extraction (TSE) identifies and isolates the voice of a specific speaker in a cocktail party scenario and plays a pivotal role in numerous real-world applications.
-Recent advances in personality query TSE have enabled speaker extraction based on high-level speaker characteristics such as gender and language.
-However, these approaches struggle when the target speaker must be distinguished by spatial location or when multiple candidates exhibit highly similar personality traits.
-To address these limitations, we introduce the SEPP framework, which incorporates both personalized and positional cues expressed via natural language descriptions.
-To mitigate the scarcity of suitable datasets, we further construct and annotate a new benchmark dataset, namely QuerySpeaker.
-Extensive experiments show that our framework outperforms existing approaches and validate the complementary benefits of combining personality and position cues for precise speaker extraction.
+            Recent advances in personality query TSE have enabled speaker extraction based on high-level speaker characteristics such as gender and language.
+            However, these approaches struggle when the target speaker must be distinguished by spatial location or when multiple candidates exhibit highly similar personality traits.
+            To address these limitations, we introduce the SEPP framework, which incorporates both personalized and positional cues expressed via natural language descriptions.
+            To mitigate the scarcity of suitable datasets, we further construct and annotate a new benchmark dataset, namely QuerySpeaker.
+            Extensive experiments show that our framework outperforms existing approaches and validate the complementary benefits of combining personality and position cues for precise speaker extraction.
           </p>
         </div>
       </div>
@@ -179,7 +112,7 @@ Extensive experiments show that our framework outperforms existing approaches an
           <h2 class="title is-3">SEPP framework</h2>
           <div class="level-set has-text-justified">
           <p>
-                    <img src="static/images/s.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+                    <img src="static/images/net.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
           </p>
               <p>
                 Our proposed SEPP network estimates the clean target speech  $\hat{\textbf{z}}(\tau)$ from a multi-channel speech mixture $\textbf{y}^m(\tau)$ and a natural language query $Q$. 
@@ -203,7 +136,7 @@ Extensive experiments show that our framework outperforms existing approaches an
           <h2 class="title is-3">Demos</h2>
           <div class="content has-text-justified">
             <div style="text-align: center;">
-              <img src="./static/images/demo1.png" width="1200">
+              <img src="./static/images/demo.png" width="1200">
             </div>
           <!-- Audio columns -->
             <div class="columns is-multiline">
@@ -336,19 +269,19 @@ Bold values indicate the best performance.
 For all these metrics, higher values correspond to better performance outcomes \((\uparrow)\).  </strong></p>
             </div>
             <div style="text-align: center;">
-              <img src="./static/images/SNR.png" width="500">
+              <img src="./static/images/table2.png" width="500">
               <p><strong>Performance comparison with different cue fusion types. \(L_T\) and \(L_S\) denote personality cue and position cue. </strong></p>
             </div>
             <div style="text-align: center;">
-              <img src="./static/images/w.png" width="500">
+              <img src="./static/images/table3.png" width="500">
               <p><strong>Performance comparison for SEPP using different personality cue types on the QuerySpeaker dataset.</strong></p>
             </div>
              <div style="text-align: center;">
-              <img src="./static/images/w.png" width="500">
+              <img src="./static/images/angle.png" width="500">
               <p><strong>Performance of the proposed method across different azimuth regions for 2-mix conditions./strong></p>
             </div>
               <div style="text-align: center;">
-              <img src="./static/images/w.png" width="500">
+              <img src="./static/images/distance.png" width="500">
               <p><strong>Performance of SEPP across different distance ranges on the simulated data.</strong></p>
             </div>
           </div>
