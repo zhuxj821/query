@@ -69,7 +69,7 @@
     <div class="container is-max-desktop">
       <div class="hero-body" style="text-align: center;">
         <p>
-          <img src="static\images\task.png" alt="Task" class="blend-img-background center-image" style="max-width: 70%; height: auto;" />
+          <img src="static\images\task.png" alt="Task" class="blend-img-background center-image" style="max-width: 65%; height: auto;" />
         </p>
         <br>
         <p>
@@ -112,7 +112,7 @@
           <h2 class="title is-3">SEPP framework</h2>
           <div class="level-set has-text-justified">
             <p>
-              <img src="static/images/s.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+              <img src="static/images/s.png" alt="Sizes of model trees" class="blend-img-background center-image" style="max-width: 90%; height: auto;" />
             </p>
             <p>
               Our proposed SEPP network estimates the clean target speech \( \hat{\mathbf{z}}(\tau) \) 
@@ -139,7 +139,7 @@
           <h2 class="title is-3">Demos</h2>
           <div class="content has-text-justified">
             <div style="text-align: center;">
-              <img src="./static/images/demo.png" width="1200">
+              <img src="./static/images/demo.png" width="1000">
             </div>
           <!-- Audio columns -->
             <div class="columns is-multiline">
@@ -148,106 +148,46 @@
                 <div class="has-text-centered">
                 <p><strong>mixture</strong></p>
                 <audio controls>
-                  <source src="./static/images/mixture.wav" type="audio/wav">
+                  <source src="./static/images/mix.wav" type="audio/wav">
                   Your browser does not support the audio element.
                 </audio>
                 </div>
+
                 <div class="has-text-centered">
-                <p><strong>gt_spk1</strong></p>
+                <p><strong>Q:“Extract speech in Mandarin.”</strong></p>
                 <audio controls>
-                  <source src="./static/images/gt_1.wav" type="audio/wav">
+                  <source src="./static/images/lang.wav" type="audio/wav">
                   Your browser does not support the audio element.
                 </audio>
                   </div>
                 <div class="has-text-centered">
-                <p><strong>Rezero_spk1</strong></p>
+                <p><strong>Q:“Extract the male speaker at a medium distance on the left rear.”</strong></p>
                 <audio controls>
-                  <source src="./static/images/DualQuery_1.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                  </div>
-                <div class="has-text-centered">
-                <p><strong>CLAPSep_spk1</strong></p>
-                <audio controls>
-                  <source src="./static/images/CLAPSep_1.wav" type="audio/wav">
+                  <source src="./static/images/male-pos.wav" type="audio/wav">
                   Your browser does not support the audio element.
                 </audio>
                 </div>
-                <div class="has-text-centered">
-                <p><strong>Q_sem_spk1 (Ours)</strong></p>
-                <audio controls>
-                  <source src="./static/images/Q_sem_1.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-                <div class="has-text-centered">
-                <p><strong>Q_spa_spk1 (Ours)</strong></p>
-                <audio controls>
-                  <source src="./static/images/Q_spa_1.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-                <div class="has-text-centered">
-                <p><strong>DualQuery_spk1 (Ours)</strong></p>
-                <audio controls>
-                  <source src="./static/images/DualQuery_1.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                  </div>
                 
               </div>
 
               <!-- Right column -->
               <div class="column is-half">
-                 <div class="has-text-centered">
-                <p><strong>mixture</strong></p>
-                <audio controls>
-                  <source src="./static/images/mixture.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
                 <div class="has-text-centered">
-                <p><strong>gt_spk2</strong></p>
+                <p><strong>gt_spk1</strong></p>
                 <audio controls>
-                  <source src="./static/images/gt_2.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-                <div class="has-text-centered">
-                <p><strong>Rezero_spk2</strong></p>
-                <audio controls>
-                  <source src="./static/images/DualQuery_2.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-                <div class="has-text-centered">
-                <p><strong>CLAPSep_spk2</strong></p>
-                <audio controls>
-                  <source src="./static/images/CLAPSep_2.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-               <div class="has-text-centered">
-                <p><strong>Q_sem_spk2 (Ours)</strong></p>
-                <audio controls>
-                  <source src="./static/images/Q_sem_2.wav" type="audio/wav">
-                  Your browser does not support the audio element.
-                </audio>
-                </div>
-                <div class="has-text-centered">
-                <p><strong>Q_spa_spk2 (Ours)</strong></p>
-                <audio controls>
-                  <source src="./static/images/Q_spa_2.wav" type="audio/wav">
+                  <source src="./static/images/tgt.wav" type="audio/wav">
                   Your browser does not support the audio element.
                 </audio>
                   </div>
-               <div class="has-text-centered">
-                <p><strong>DualQuery_spk2 (Ours)</strong></p>
+                
+                 <div class="has-text-centered">
+                <p><strong>Q:“Extract the male speaker.”</strong></p>
                 <audio controls>
-                  <source src="./static/images/DualQuery_2.wav" type="audio/wav">
+                  <source src="./static/images/male-nopos.wav" type="audio/wav">
                   Your browser does not support the audio element.
                 </audio>
-                 </div>
+                </div>
+
               </div>
             </div>
           </div>
